@@ -1,0 +1,168 @@
+
+body{
+    
+    font-family: 'Prompt', sans-serif;
+    background-image: url(fotos/gold-cutlery-set-marble.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+    
+
+    
+    
+  }
+
+  .introducao{
+
+ display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+
+
+   
+h1{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(231, 48, 15);
+}
+
+h2{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(231, 48, 15);
+}
+
+.restaurante{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nomerestaurante{
+
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.enderecorestaurante{
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.siterestaurante{
+
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.visita{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.data{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.horario{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Acompanhantes{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.visita2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+
+.lotacao{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tipo{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.experiência{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.final{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.satisfacao{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.preco{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.avaliacaopreco{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quantidade{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.final2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botao{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;    
+}
+

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas experiências gastronômicas</title>
+    <meta name="keywords" content="Minhas Experiências gastronômicas"/>
+    <meta name="description" content="A website where anyone can record their gastronomic experiences for themselves"/>
+    <meta name="author" content="Leonardo Vergutz"/>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>
+           <img style="height: 60px;" src="fotos/—Pngtree—hand drawn chef meal illustration_4062754.png" alt="icone de um cozinheiro segurando um prato"> Minhas experiências gastronômicas <img style="height: 60px;" src="fotos/—Pngtree—hand drawn chef meal illustration_4062754.png" alt="icone de um cozinheiro segurando um prato">
+        </h1>
+        <h2>
+            Lugar onde você pode registrar as suas experiencias gastronômicas.
+        </h2>
+
+    </header>
+    <main>
+
+
+        <h1>Introdução:</h1>
+        <section style="color: rgb(87, 50, 9)">
+        <div class="introducao">  
+            <b>
+            <p>
+                Bem-vindo ao nosso site, um espaço dedicado a compartilhar suas experiências em restaurantes!
+                <br>
+            </p>
+            <p>
+                <br> Sabemos que visitar um restaurante vai além de apenas alimentar o corpo. É uma experiência completa, 
+                <br> que envolve todos os sentidos e desperta uma variedade de emoções. Queremos que você use este 
+                <br> espaço para contar suas histórias, compartilhar momentos marcantes e transmitir suas opiniões 
+                <br> sobre os restaurantes que visitou.
+                <br>
+                <br> Esse website é um lugar onde você pode se expressar livremente sobre suas experiências,
+                <br> seja do lado mais sentimental, relatando como os sabores se misturam com suas emoções, 
+                <br> até ao lado mais técnico, analisando o custo benefício, os preços e a quantidade de comida servida.
+                <br>
+                <br> Seja uma refeição inesquecível que o transportou para outra cultura, um jantar romântico que encantou 
+                <br> seus sentidos ou até mesmo um pequeno café aconchegante que o surpreendeu com sua simplicidade, 
+                <br> queremos proporcionar a oportunidade de você eternizar esse momento e te ajudar para que essas 
+                <br> aventuras culinárias voltem a acontecer novamente em outra ocasião.
+
+            </p>
+    </b>
+        </div>
+
+    </section>
+        <b>
+        <section style="color: rgb(87, 50, 9)">
+
+        <form action="server.php" method="POST">
+            <h1>Informações do restaurante:</h1>
+            <div class="restaurante">
+                
+               <div class="nomerestaurante">
+            <label for="nome_restaurante">Nome do Restaurante:</label>
+            <input type="text" required><br>
+            </div>
+            <div class="enderecorestaurante">
+    <label for="endereco">Endereço:</label>
+    <input type="text" required><br>
+            </div>
+            <div class="siterestaurante">
+    <label for="site_restaurante">Site do Restaurante:</label>
+    <input type="url"><br>
+            </div>
+            </div>
+            <h1>Informações da visita:</h1>
+            <div class="visita">
+                <div class="data">
+    <label for="data_frequencia">Dia em que você foi ao restaurante:</label>
+    <input type="date"required><br>
+                    </div>
+                    <div class="Horario">
+    <label for="horario_frequencia">Horário em que você foi ao restaurante:</label>
+    <input type="time" required><br>
+                    </div>
+                    <div class="Acompanhantes">
+    <label for="acompanhantes">Foi com outras pessoas?</label>
+    <select>
+        <option value=""></option>
+        <option value="1">Sim</option>
+        <option value="2">Não</option>
+    </select><br>
+                    </div>
+            </div>
+            <div class="visita2">
+                <div class="lotacao">
+    <label for="restaurante_cheio">Como estava a lotação do restaurante neste horário?</label>
+    <select>
+        <option value="0"></option>
+        <option value="1">Alta</option>
+        <option value="2">Media</option>
+        <option value="3">Baixa</option>
+    </select><br>
+                </div>
+                <div class="tipo">
+    <label for="tipo_restaurante">Qual era o tipo de restaurante que você visitou?</label>
+    <select>
+        <option value="0"></option>
+        <option value="1">Bistrô</option>
+        <option value="2">Buffet ou Self-Service</option>
+        <option value="3">Café, Cafeteria ou Coffee Shop</option>
+        <option value="4">Cantina</option>
+        <option value="5">Clássico</option>
+        <option value="6">Comfort Food</option>
+        <option value="7">Cozinha Autoral</option>
+        <option value="8">Estilo Familiar ou Jantar Casual</option>
+        <option value="9">Fast Food</option>
+        <option value="10">Food Truck</option>
+        <option value="11">Grill</option>
+        <option value="12">Hamburgueria</option>
+        <option value="13">Internacional</option>
+        <option value="14">Jantar Fino</option>
+        <option value="15">Popular</option>
+        <option value="16">Pop Up</option>
+        <option value="17">Pub</option>
+        <option value="18">Rápido e Casual</option>
+        <option value="19">Rede de restaurantes</option>
+        <option value="20">Típico</option>
+        <option value="21">Tradicional</option>
+    </select>
+        </div>
+        </div>
+        <h1>Informações da Experiência:</h1>
+        <div class="experiência">
+            
+    <label for="atendimento">Como foi o atendimento?</label>
+    <select>
+        <option value="0"></option>
+        <option value="1">Otimo</option>
+        <option value="2">Bom</option>
+        <option value="3">Normal</option>
+        <option value="4">Ruim</option>
+        <option value="5">Pessimo</option>
+    </select><br>
+
+    <label for="ambiente">Como estava o ambiente?</label>
+    <select>
+
+        <option value="0"></option>
+        <option value="1">Bom</option>
+        <option value="2">Agradável</option>
+        <option value="3">Desagradável</option>
+        <option value="4">Ruim</option>
+    </select>
+
+    <label for="prato1">Prato 1:</label>
+    <input type="text"><br>
+
+    <label for="prato2">Prato 2:</label>
+    <input type="text" ><br>
+
+    <label for="prato3">Prato 3:</label>
+    <input type="text"><br>
+
+    <label for="sobremesa">Sobremesa:</label>
+    <input type="text">
+
+    <label for="bebidas">Pediu bebidas?</label>
+    <select>
+        <option value=""></option>
+        <option value="1">Sim</option>
+        <option value="2">Não</option>
+    </select><br>
+    </div>
+    <H1>Avaliação Final:</H1>
+    <div class="final">
+        <div class="satisfacao">
+    <label for="satisfação">Saiu satisfeito do restaurante?</label>
+    <select>
+        <option value=""></option>
+        <option value="1">Sim</option>
+        <option value="2">Não</option>
+    </select><br>
+        </div>
+        <div class="preco">
+    <label for="preco_final">Preço Final:</label>
+    <input type="text" ><br>
+        </div>
+        <div class="avaliacaopreco">
+    <label for="avaliacao_preco">Avaliação do Preço:</label>
+    <select>
+      <option value="0"></option>
+      <option value="1">Muito Caro</option>
+      <option value="2">Caro</option>
+      <option value="3">Preço Justo</option>
+      <option value="4">Barato</option>
+      <option value="5">Muito Barato</option>
+    </select><br>
+        </div>
+        <div class="quantidade">
+    <label for="avaliacao_quantidade">O preço valeu a pena pela quantidade de comida?</label>
+    <select>
+        <option value=""></option>
+        <option value="1">Sim</option>
+        <option value="2">Não</option>
+    </select><br>
+        </div>
+    </div>
+    <h1>Informações Adicionais:</h1>
+    <div= class="final2">
+    <label for="avaliacao_final">Comente aqui algum detalhe ou acontecimento:</label><br>
+    <textarea name="detalhe"  cols="50" rows="7"></textarea><br>
+    </div>
+     <div class="botao">
+         <br>
+        <label for="salvar"></label>
+        <input type="button" value="Salvar" />
+    
+     </div>
+
+    
+</b>
+
+
+
+    
+
+    </main>
+    
+</body>
+</html>
